@@ -22,13 +22,11 @@ export default function Home() {
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center relative">
-            {/* Dekorasi Lingkaran */}
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-500 opacity-30 blur-1xl rounded-full"></div>
             <div className="absolute top-20 left-10 w-24 h-24 bg-blue-400 opacity-20 blur-1xl rounded-full"></div>
             <div className="absolute bottom-10 right-5 w-32 h-32 bg-blue-300 opacity-25 blur-1xl rounded-full"></div>
             <div className="absolute -bottom-16 -left-16 w-20 h-20 bg-blue-500 opacity-40 blur-xl rounded-full"></div>
 
-            {/* Gambar HP */}
             <Image
               src="/image/hp.png"
               width={300}
@@ -40,7 +38,6 @@ export default function Home() {
 
       </section>
 
-      {/* Fitur Utama */}
       <section className="py-20 text-center">
         <h2 className="text-4xl font-extrabold text-teal-700 tracking-wide">Fitur Utama</h2>
         <p className="text-lg text-gray-600 mt-3">Jelajahi keunggulan aplikasi kami yang dirancang untuk kenyamanan Anda.</p>
@@ -75,17 +72,13 @@ export default function Home() {
         </div>
       </section>
 
-
-      {/* Call to Action */}
       <section
         id="download"
         className="w-full py-20 bg-gradient-to-r from-teal-400 to-teal-600 text-white text-center relative overflow-hidden"
       >
-        {/* Dekorasi Lingkaran */}
         <div className="absolute top-0 left-0 w-40 h-40 bg-teal-500 opacity-30 rounded-full animate-ping"></div>
         <div className="absolute bottom-0 right-0 w-48 h-48 bg-teal-300 opacity-20 rounded-full animate-bounce"></div>
 
-        {/* Konten */}
         <div className="relative z-10 max-w-screen-xl mx-auto px-6">
           <h2 className="text-4xl font-extrabold tracking-wide animate-fade-in">
             Unduh Sekarang
@@ -94,7 +87,6 @@ export default function Home() {
             Dapatkan aplikasi ini dan nikmati fiturnya sekarang juga. Tersedia untuk Android dan iOS.
           </p>
 
-          {/* Tombol Download */}
           <div className="mt-6 flex justify-center gap-6 animate-slide-up">
             <a
               href="#"
@@ -136,15 +128,11 @@ export default function Home() {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <p className="text-gray-400 flex items-start space-x-2">
-              <span className="text-teal-400">📍</span> 
-              <span>Jl. Tanah Abang III No 23A, Jakarta Pusat, DKI Jakarta 10160, Indonesia</span>
+            <p className="mt-3 text-gray-400 flex items-center space-x-2">
+              <span className="text-teal-400">📞</span> <span>021 – xxxx-xxxx</span>
             </p>
             <p className="mt-3 text-gray-400 flex items-center space-x-2">
-              <span className="text-teal-400">📞</span> <span>021 – 2128 2598</span>
-            </p>
-            <p className="mt-3 text-gray-400 flex items-center space-x-2">
-              <span className="text-teal-400">✉️</span> <span>contact@ekoran.id</span>
+              <span className="text-teal-400">✉️</span> <span>leonardfredsmorin3@gmail.com</span>
             </p>
           </div>
 
